@@ -1,0 +1,10 @@
+VAIVASAWAT="13/10/13"
+abhuday="09/08/13"
+TEJAS="27/11/16"
+devashish="26/5"
+Shiv="26/6/13"
+print(VAIVASAWAT)
+print(abhuday)
+print(TEJAS)
+print(devashish)
+print(Shiv)
