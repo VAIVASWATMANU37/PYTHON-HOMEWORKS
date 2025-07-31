@@ -1,0 +1,5 @@
+TEMPERATURE=int(input("ENTER THE CURRENT TEMPERATURE... "))
+if (TEMPERATURE > 40):
+    print("IT IS REALLYYYYYYYYYYY HOT...")
+else:
+    print("IT IS MILD HOT...")
