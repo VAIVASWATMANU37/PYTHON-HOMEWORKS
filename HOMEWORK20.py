@@ -1,0 +1,5 @@
+A=int(input("ENTER YOUR AGE-"))
+if 10<A<20:
+    print("YOUR AGE IS BETWEEN 10 TO 20 YEARS")
+else:
+    print("YOUR AGE IS NOT BETWEEN 10 TO 20 YEARS")
