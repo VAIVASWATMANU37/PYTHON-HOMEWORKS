@@ -1,0 +1,10 @@
+import math
+AD = float(input("ENTER THE ANGLE IN DEGREES- "))
+AR = math.radians(AD)
+SV = math.sin(AR)
+CV = math.cos(AR)
+TV = math.tan(AR)
+print(f"\nFOR ANGLE {AD}°:")
+print(f"SIN({AD}) = {SV}")
+print(f"COS({AD}) = {CV}")
+print(f"TAN({AD}) = {TV}")
