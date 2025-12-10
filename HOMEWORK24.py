@@ -18,6 +18,6 @@ class CIVIC_TYPE_R_G1(JDM):
         return "2.0L TWIN-TURBO INLINE-4"
 def P(cars):
     for car in cars:
-        print(car.engine_sound())
+        print(car.E())
 J = [SUPRA_MK4(), SKYLINE_GTR_BNCR34_NISMO_ZTUNE(), RX7_FD(), TRUENO_AE86(), CIVIC_TYPE_R_G1()]
 P(J)
