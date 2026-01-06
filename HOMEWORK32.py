@@ -1,0 +1,22 @@
+from tkinter import *
+SRT_VIPER_ACRX_GT3_LMP = Tk()
+SRT_VIPER_ACRX_GT3_LMP.geometry("400x400")
+SRT_VIPER_ACRX_GT3_LMP.title("MULTIPLICATION")
+CHALLENGER_SRT_DEMON_170 = Label(text="ENTER THE FIRST NUMBER:", fg="blue", bg="#D40000", height=1, width=20)
+CHARGER_RT = Entry()
+CHARGER_HELLCAT_DEMON_666 = Label(text="ENTER THE SECOND NUMBER:", bg="#0039D4")
+CHARGER_TA = Entry()
+def display():
+    MUSTANG_GTD = int(CHARGER_RT.get())
+    MUSTANG_GTD_GT3 = int(CHARGER_TA.get())
+    PONTIAC_GTO = MUSTANG_GTD * MUSTANG_GTD_GT3
+    text_box.insert(END, f"THE PRODUCT OF {MUSTANG_GTD} AND {MUSTANG_GTD_GT3} IS: {PONTIAC_GTO}\n")
+text_box = Text(height=10)
+SHELBY_GT500 = Button(text="GET THE ANSWER", command=display, bg="#D40000", fg="#0039D4")
+CHALLENGER_SRT_DEMON_170.pack()
+CHARGER_RT.pack()
+CHARGER_HELLCAT_DEMON_666.pack()
+CHARGER_TA.pack()
+SHELBY_GT500.pack()
+text_box.pack()
+SRT_VIPER_ACRX_GT3_LMP.mainloop()
